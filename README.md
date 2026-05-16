@@ -22,8 +22,5 @@ A simple smart automation project built using Arduino UNO, relay module, sound s
 - Sensor debugging
 - Basic automation concepts
 
-## Demo
-(Add demo video or screenshots here)
-
 ## Author
 Vivek Patne
