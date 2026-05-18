@@ -30,14 +30,14 @@ while True:
             print(f"Heard: {text}")
 
             if any(w in text for w in
-                   ["on", "start", "enable","chalu"]):
+                   ["on", "start", "enable","chalu", "chaloo","chalu karo","chalu karoo"]):
 
                 arduino.write(b'ON\n')
 
                 print("-> Sent ON\n")
 
             elif any(w in text for w in
-                     ["off", "stop", "disable","band"]):
+                     ["off", "stop", "disable","band","bnd"]):
 
                 arduino.write(b'OFF\n')
 
